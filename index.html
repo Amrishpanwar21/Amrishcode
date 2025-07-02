@@ -1,11 +1,38 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>External CSS</title>
-        <link rel="stylesheet" href="style.css"
-     </head>
-    <body>
-        <h1>My Webpage</h1>
-        <p>This is a paragrapgh styled using external css</p>
-    </body>
+        <title>Document</title>
+        <style>
+        #one{
+            background-color: aqua;
+            height:80%;
+            width: 90%;
+            position:relative;
+        }
+        p{
+            text-align:center;
+            position:absolute;
+            margin: 0;
+            bottom:50%;
+            left:25%;
+        }
+        .commom{
+            display:inline;
+            margin-left: 50px;
+        }
+        nav{
+            background-color: grey;
+        }
+        </style>
+    </head>
+<body>
+    <h1>Flexbox</h1>
+    
+    <nav>
+        <div class="common">Home</div>
+        <div class="common">About</div>
+        <div class="common">Profile</div>
+        <div class="common">Login</div>
+        <div id="one">
+            <p>This is some text</p>
+        </div>
 </html>
